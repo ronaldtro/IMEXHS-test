@@ -1,0 +1,5 @@
+<SuccessAlert *ngIf="activeAlert.state && activeAlert.type == 'success'"></SuccessAlert>
+<DangerAlert *ngIf="activeAlert.state && activeAlert.type == 'danger'"></DangerAlert>
+<WarningAlert *ngIf="activeAlert.state && activeAlert.type == 'warning'"></WarningAlert>
+
+<router-outlet />

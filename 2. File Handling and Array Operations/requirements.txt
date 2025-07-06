@@ -1,0 +1,4 @@
+#📄 Librerías necesarias (pandas, pydicom, matplotlib)
+pandas
+matplotlib
+pydicom

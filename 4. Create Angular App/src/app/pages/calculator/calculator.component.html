@@ -1,0 +1,60 @@
+<div class="min-h-screen flex items-center justify-center bg-base-100 px-4 py-5">
+    <div class="w-full max-w-md bg-base-200 p-6 rounded-xl shadow-md space-y-6">
+
+        <h3 class="text-center">
+            Calculate área
+        </h3>
+
+        <form [formGroup]="form" (ngSubmit)="submit()" class="space-y-4">
+
+            <fieldset class="fieldset">
+                <legend class="fieldset-legend">Binary image</legend>
+                <input type="file" formControlName="imageFile" (change)="onFileChange($event)"
+                    class="file-input file-input-neutral w-full" />
+                <div role="alert" class="alert alert-warning alert-soft mt-2"
+                    *ngIf="form.get('imageFile')?.invalid && form.get('imageFile')?.touched">
+                    <span><strong>The image input is required.</strong></span>
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset flex justify-center">
+                <img *ngIf="imageSrc" [src]="imageSrc" alt="Vista previa" class="w-72 rounded shadow" />
+                <img *ngIf="!imageSrc" src="uploadExample.PNG" class="w-72 opacity-25" alt="Example" />
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend class="fieldset-legend">Points count</legend>
+                <input type="range" formControlName="pointsCount" min="100" max="10000" step="100"
+                    class="range range-neutral w-full" />
+                <span class="block text-center mt-1 font-semibold">
+                    {{ form.value.pointsCount }}
+                </span>
+                <div role="alert" class="alert alert-warning alert-soft mt-2"
+                    *ngIf="form.get('pointsCount')?.invalid && form.get('pointsCount')?.touched">
+                    <span><strong>El campo selección de puntos es requerido.</strong></span>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="btn btn-neutral w-full">
+                <span *ngIf="waiting" class="loading loading-dots loading-md"></span>
+                <span *ngIf="!waiting">Calculate</span>
+            </button>
+        </form>
+
+        <div *ngIf="estimatedArea !== null" class="pt-4">
+            <div role="alert" class="alert alert-success alert-soft text-center">
+                <strong>Estimated área: {{ estimatedArea | number:'1.0-2' }}</strong>
+            </div>
+
+            <a routerLink="/explain">
+                <div role="alert" class="alert alert-success alert-dash">
+                    <strong>
+                        Click to see the explain
+                    </strong>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="py-5">
+    <div>
+        <div class="overflow-auto">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Points count</th>
+                        <th>Estimated área</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngIf="!history.length">
+                        <td colspan="3" class="text-center text-gray-500 py-4">
+                            No data
+                        </td>
+                    </tr>
+                    <tr *ngFor="let h of history; let i = index" class="hover:bg-base-300">
+                        <td>{{i+1}}</td>
+                        <td>{{h.pointsCount}}</td>
+                        <td>{{h.area}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

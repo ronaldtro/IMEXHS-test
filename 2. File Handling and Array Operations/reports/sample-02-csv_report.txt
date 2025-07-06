@@ -1,0 +1,6 @@
+CSV Summary Report
+Age: Average = 31.1, Std Dev = 7.4
+Weight: Average = 76.0, Std Dev = 4.5
+Height: Average = 169.6, Std Dev = 4.8
+Cholesterol: Average = 198.6, Std Dev = 8.7
+HeartRate: Average = 87.6, Std Dev = 16.1
