@@ -23,15 +23,17 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 
 ## INIT CONF
 
+Run in console
 ```bash
   git clone https://github.com/ronaldtro/IMEXHS-test.git
 ```
 
+Run in console
 ```bash
   cd 1. Recursion and colors
 ```
 
-## RUN
+## Run in console (Execute project)
 ```bash
   python main.py
 ```
