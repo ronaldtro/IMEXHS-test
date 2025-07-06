@@ -31,6 +31,7 @@ FastAPI-based RESTful API for managing medical image processing, stores results 
 
 ## INIT CONF
 
+Run in console 
 ```bash
     git clone https://github.com/ronaldtro/IMEXHS-test.git
 ```
