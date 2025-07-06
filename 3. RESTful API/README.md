@@ -9,7 +9,7 @@
 <div align="center">
 
 ### STACK
-[![Python][python-badge]][badge-empty-url]
+[![Python][python-badge]][badge-empty-url] (Fastapi)
 
 </div>
 
