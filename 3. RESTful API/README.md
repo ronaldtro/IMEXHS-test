@@ -59,7 +59,7 @@ Run in console
 ```bash
     alembic upgrade head
 ```
-Run in console (Execute)    
+## Run in console (Execute project)    
 ```bash
     uvicorn app.main:app --reload
 ```
