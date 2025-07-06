@@ -25,10 +25,15 @@ This project allows you to list folders, process CSV and DICOM files from an org
 - Modular and Scalable
 
 ## INIT CONF
+
 ```bash
-  git clone: 
-  https://github.com/ronaldtro/IMEXHS-test.git
+  git clone https://github.com/ronaldtro/IMEXHS-test.git
 ```
+
+```bash
+  cd 1. Recursion and colors
+```
+
 ```bash
   pip install -r requirements.txt
 ```
