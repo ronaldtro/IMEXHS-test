@@ -23,7 +23,8 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 
 ## INIT CONF
 ```bash
-  git clone: [repo](https://github.com/ronaldtro/IMEXHS-test.git)
+  git clone:
+  https://github.com/ronaldtro/IMEXHS-test.git
 ```
 
 ## RUN
