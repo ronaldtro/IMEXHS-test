@@ -37,6 +37,11 @@ Run in console
 
 Run in console 
 ```bash
+  cd 3. RESTful API
+```
+
+Run in console 
+```bash
     pip install -r requirements.txt
 ```
     
