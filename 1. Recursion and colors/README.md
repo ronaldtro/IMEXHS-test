@@ -23,9 +23,12 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 
 ## INIT CONF
 
-git clone
 ```bash
-  https://github.com/ronaldtro/IMEXHS-test.git
+  git clone https://github.com/ronaldtro/IMEXHS-test.git
+```
+
+```bash
+  cd 1. Recursion and colors
 ```
 
 ## RUN
