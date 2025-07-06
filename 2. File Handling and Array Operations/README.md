@@ -9,7 +9,7 @@
 <div align="center">
 
 ### STACK
-![Python][python-badge]
+[![Python][python-badge]][badge-empty-url]
 
 </div>
 
@@ -26,16 +26,30 @@ This project allows you to list folders, process CSV and DICOM files from an org
 
 ## INIT CONF
 
-- git clone: https://github.com/ronaldtro/...project_name
-
-- pip install -r requirements.txt
-
-- Run 
+Run in console
 ```bash
-python main.py
+  git clone https://github.com/ronaldtro/IMEXHS-test.git
+```
+
+Run in console
+```bash
+  cd 2. File Handling and Array Operations
+```
+
+Run in console
+```bash
+  pip install -r requirements.txt
+```
+
+## Run in console (execute project)
+```bash
+  python main.py
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### By
-[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro) 
+[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro)
+
 [python-badge]: https://img.shields.io/badge/Python-blue?logo=python&logoColor=white
+[badge-empty-url]: #!

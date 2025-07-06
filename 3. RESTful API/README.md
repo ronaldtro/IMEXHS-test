@@ -9,8 +9,7 @@
 <div align="center">
 
 ### STACK
-![Python][python-badge]
-
+[![Python][python-badge]][badge-empty-url]
 </div>
 
 ## INIT
@@ -31,30 +30,57 @@ FastAPI-based RESTful API for managing medical image processing, stores results 
 
 ## INIT CONF
 
-- git clone: https://github.com/ronaldtro/...project_name
-
-- pip install -r requirements.txt
-
-- Configure .env:
-    DATABASE_URL=postgresql://medicaldb_0xva_user:dywLYWYL3YYSa5U22QvDZgqDNKYadU66@dpg-d1jlq163jp1c73ee84rg-a.oregon-postgres.render.com/medicaldb_0xva
-
-- Configure alembic.ini:
-    sqlalchemy.url = postgresql+psycopg2://medicaldb_0xva_user:dywLYWYL3YYSa5U22QvDZgqDNKYadU66@dpg-d1jlq163jp1c73ee84rg-a.oregon-postgres.render.com/medicaldb_0xva
-
-- Execute migration:
-    alembic upgrade head
-
-- Run 
+Run in console 
 ```bash
-uvicorn app.main:app --reload
+    git clone https://github.com/ronaldtro/IMEXHS-test.git
+```
 
-# Base URL: http://127.0.0.1:8000
-# Swagger UI: http://127.0.0.1:8000/docs
-# ReDoc: http://127.0.0.1:8000/redoc
+Run in console 
+```bash
+  cd 3. RESTful API
+```
 
+Run in console 
+```bash
+    pip install -r requirements.txt
+```
+    
+Configure .env 
+```bash
+    DATABASE_URL=postgresql://medicaldb_0xva_user:dywLYWYL3YYSa5U22QvDZgqDNKYadU66@dpg-d1jlq163jp1c73ee84rg-a.oregon-postgres.render.com/medicaldb_0xva
+```
+
+Configure alembic.ini    
+```bash
+    sqlalchemy.url = postgresql+psycopg2://medicaldb_0xva_user:dywLYWYL3YYSa5U22QvDZgqDNKYadU66@dpg-d1jlq163jp1c73ee84rg-a.oregon-postgres.render.com/medicaldb_0xva
+```
+
+Run in console
+```bash
+    alembic upgrade head
+```
+## Run in console (Execute project)    
+```bash
+    uvicorn app.main:app --reload
+```
+## Local url
+API
+```bash
+    http://127.0.0.1:8000
+```
+Swagger UI
+```bash
+    http://127.0.0.1:8000/docs
+```
+ReDoc
+```bash
+    http://127.0.0.1:8000/redoc
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### By
-[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro) 
+[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro)
+
 [python-badge]: https://img.shields.io/badge/Python-blue?logo=python&logoColor=white
+[badge-empty-url]: #!
