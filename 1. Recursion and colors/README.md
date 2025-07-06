@@ -25,9 +25,6 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 ```bash
   git clone: https://github.com/ronaldtro/...project_name
 ```
-```bash
-  pip install -r requirements.txt
-```
 
 ## RUN
 ```bash
