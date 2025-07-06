@@ -9,7 +9,7 @@
 <div align="center">
 
 ### STACK
-![Python][python-badge]
+[![Python][python-badge]][badge-empty-url]
 
 </div>
 
@@ -30,9 +30,11 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 - Run 
 ```bash
 python main.py
-
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### By
-[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro) 
+[![ronaldtro](https://avatars.githubusercontent.com/u/72902488?s=64&amp;v=4)](http://github.com/ronaldtro)
+
 [python-badge]: https://img.shields.io/badge/Python-blue?logo=python&logoColor=white
+[badge-empty-url]: #!
