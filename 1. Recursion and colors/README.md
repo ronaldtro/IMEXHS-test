@@ -22,8 +22,9 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 - Modular and Scalable.
 
 ## INIT CONF
+
+git clone
 ```bash
-  git clone:
   https://github.com/ronaldtro/IMEXHS-test.git
 ```
 
