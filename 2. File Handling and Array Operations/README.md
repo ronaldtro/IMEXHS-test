@@ -31,7 +31,7 @@ This project allows you to list folders, process CSV and DICOM files from an org
 ```
 
 ```bash
-  cd 1. Recursion and colors
+  cd 2. File Handling and Array Operations
 ```
 
 ```bash
