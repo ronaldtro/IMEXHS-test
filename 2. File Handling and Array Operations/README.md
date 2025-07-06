@@ -41,7 +41,7 @@ Run in console
   pip install -r requirements.txt
 ```
 
-## Run 
+## Run project
 ```bash
   python main.py
 ```
