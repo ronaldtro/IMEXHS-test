@@ -23,13 +23,15 @@ A game involving discs of different sizes and colors stacked on a source rod. Th
 
 ## INIT CONF
 
-- git clone: https://github.com/ronaldtro/...project_name
-
-- pip install -r requirements.txt
-
-- Run 
+## RUN
 ```bash
-python main.py
+  git clone: https://github.com/ronaldtro/...project_name
+```
+```bash
+  pip install -r requirements.txt
+```
+```bash
+  python main.py
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
