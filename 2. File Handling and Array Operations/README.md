@@ -26,21 +26,24 @@ This project allows you to list folders, process CSV and DICOM files from an org
 
 ## INIT CONF
 
+Run in console
 ```bash
   git clone https://github.com/ronaldtro/IMEXHS-test.git
 ```
 
+Run in console
 ```bash
   cd 2. File Handling and Array Operations
 ```
 
+Run in console
 ```bash
   pip install -r requirements.txt
 ```
 
 ## Run 
 ```bash
-python main.py
+  python main.py
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
